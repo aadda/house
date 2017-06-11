@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    background: #eee;
+}
+#g1 {
+    margin: 0 auto;
+    width: 1200px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+    padding: 12px 0;
+}
+#g1 a {
+    color: #999;
+}
+#g2 {
+    position: relative;
+    width: 1200px;
+    height: 533px;
+    background: #fff;
+    margin: 0 auto;
+    border: 1px solid #e7e7e7;
+}
+#g21 {
+    width: 800px;
+    padding: 20px 26px;
+    font-size: 14px;
+    color: #888;
+}
+#g21 span{
+    padding: 50px;
+}
+#g211 {
+    position: absolute;
+    top: 20px;
+    right: 26px;
+    cursor: pointer;
+    display: block;
+    width: 98px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #eee;
+    text-indent: 37px;
+    font-size: 14px;
+    color: #a3a3a3;
+    background: url(../img/icon-faveun-Gstar.png) no-repeat 9px 4px;
+}
+#g22 {
+    width: 540px;
+    height: 362px;
+    margin-left: 26px;
+}
+.d1 {
+    float: left;
+}
+#big-img {
+    width: 540px;
+    height: 362px;
+    position: relative;
+}
+#big-img li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+#big-img li span {
+    display: block;
+    height: 362px;
+    width: 483px;
+    margin: 0 auto;
+}
+.show1 {
+    z-index: 1;
+}
+#g222 {
+    width: 540px;
+    height: 90px;
+    margin-left: 26px;
+    margin-top: 380px;
+}
+#small-img {
+    width: 480px;
+    height: 90px;
+    margin-left:30px;
+}
+#small-img li {
+    height: 80px;
+    width: 121px;
+    float: left;
+    margin-right: 20px;
+}
+#small-img li span{
+    display: block;
+    height: 78px;
+    width: 117px;
+    margin: 1px auto;
+}
+.show2 {
+    border: 1px solid #009b78;
+}
+.but {
+    width: 21px;
+    height: 76px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 76px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    margin-top: 1px;
+}
+.d2 {
+    float: right;
+}
+#g3 {
+    width: 500px;
+    /*height: 455px;*/
+    /*background: rosybrown;*/
+    position: absolute;
+    left: 598px;
+    top: 53px;
+}
+#g31 {
+    width: 100%;
+    overflow: hidden;
+}
+.hName {
+    font-size: 26px;
+    color: #394043;
+    float: left;
+}
+.hFea {
+    font-size: 12px;
+    padding: 4px 7px;
+    color: #009b78;
+    border: 1px solid #009b78;
+    display: inline-block;
+    float: left;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+table {
+    margin: 23px 0 20px 0;
+}
+table td {
+    width: 158px;
+    padding: 0;
+    text-align: left;
+    font-size: 14px;
+    color: #394043;
+}
+.price {
+    font-size: 32px;
+    color: #f06e7d;
+}
+.w-price {
+    display: inline-block;
+    margin-bottom: 18px;
+}
+.w-price span {
+    font-size: 14px;
+}
+table td label {
+    margin-bottom: 0;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+}
+.area-type {
+    width: 436px;
+    height: 63px;
+    margin: 26px 0 30px 0;
+    background: #f4f4f4;
+    border-radius: 2px;
+    line-height: 63px;
+}
+.area-type span {
+    color: #394043;
+    font-weight: 600;
+    font-size: 22px;
+}
+.area {
+    padding-left: 30px;
+}
+.last-raw {
+    height: 50px;
+}
+#owner-info {
+    width: 603px;
+    height: 116px;
+    position: relative;
+    border-top: 1px solid #eee;
+}
+#owner-info img {
+    margin-top: 15px;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    border: 1px solid #eee;
+}
+.uName {
+    position: absolute;
+    left: 77px;
+    top: 23px;
+}
+.uName span {
+    display: inline-block;
+    width: 45px;
+    height: 15px;
+    background: #f4f4f4;
+    border-radius: 1px;
+    color: #666;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    left: 9px;
+}
+.call {
+    cursor: pointer;
+    display: block;
+    width: 115px;
+    height: 30px;
+    position: relative;
+    left: 77px;
+    top: -30px;
+    font-size: 14px;
+    color: #fff;
+    background: #009b78 url(../img/icon-chat.png) no-repeat 9px 8px;
+    border-radius: 2px;
+    line-height: 30px;
+    text-indent: 34px;
+}

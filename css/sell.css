@@ -1,0 +1,32 @@
+#banner{
+	height: 613px;
+	background: url("../img/banner.jpg") no-repeat 50% 0;
+	/*background-size: cover;*/
+	position: relative;
+}
+#work{
+	height: 250px;
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: #fff;
+	opacity: 0.7;
+	margin-left: -250px;
+	margin-top: -125px;
+	padding: 30px;
+}
+#work h1{
+	text-align: center;
+	color: #009b78;
+	margin-top: 65px;
+}
+#work div{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 45px;
+	color: #222;
+}
+#work h2{
+	color: #f16e7e;
+}

@@ -1,0 +1,132 @@
+#header{
+	height: 36px;
+}
+#title,#login li,#choose li{
+	float: left;
+}
+#title h4{
+	line-height: 36px;
+	color: #555;
+}
+#title span{
+	color: #009b78;
+}
+#login{
+	float: right;
+}
+#login span{
+	text-align: center;
+	color: #009b78;
+	font-size: 13px;
+}
+#login li a{
+	font-size: 14px;
+	margin-right: 5px;
+	line-height: 36px;
+	text-decoration: none;
+	color: #555;
+}
+#login li a:hover{
+	color: #009b78;
+}
+/******************************************/
+#logo{
+	height: 53px;
+	/*background: #f00;*/
+	margin-top: 10px;
+}
+#logo img{
+	float: left;
+	margin-left: -266px;
+}
+#choose{
+	float: right;
+}
+#choose li a{
+	font-size: 20px;
+	margin-right: 25px;
+	padding-right: 15px;
+	line-height: 53px;
+	text-decoration: none;
+	color: #555;
+}
+#choose li a:hover{
+	color: #009b78;
+}
+#choose1 a{
+	color: #009b78;
+}
+/******************************************/
+#why{
+	height: 455px;
+	/*background: #f00;*/
+}
+#whytitle{
+	height: 55px;
+}
+#whytitle h2{
+	text-align: center;
+	line-height: 55px;
+	color: #000;
+}
+#whytitle span{
+	color: #009b78;
+}
+#speak h2{
+	text-align: center;
+}
+#speak .speak{
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+#speak .span1{
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	width: 130px;
+	height: 40px;
+	margin-left: 70px;
+	margin-top: 10px;
+	background: #009b78;
+	border-radius: 5px;
+	color: #fff;
+}
+/******************************************/
+#footer{
+    height: 176px;
+    background: #31333e;
+    position: relative;
+    padding-top: 45px;
+}
+#footer .footer-left{
+    width: 550px;
+    color: #e2e7ed;
+    font-size: 9px;
+}
+#tab li{
+    float: left;
+    width: 66px;
+    text-align: center;
+    border-right: 1px solid #e2e7ed;
+}
+#tab li:last-child{
+    border-right: none;
+}
+#footer .footer-left p{
+    display: block;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+#p1{
+    margin-top: 36px;
+}
+#footer .footer-right{
+    width: 278px;
+    height: 39px;
+    background:url("../img/sprite.png") 0 -205px no-repeat;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+}
+/****footer结束*****/

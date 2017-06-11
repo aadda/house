@@ -1,0 +1,33 @@
+#operation{
+	margin-top: 50px;
+}
+#operation1{
+	float: left;
+}
+#operation2{
+	float: left;
+	background: #eee;
+	margin-left: 15px;
+	width: 1000px;
+	/*height: 500px;*/
+}
+#operation1 li{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #eee;
+	margin-bottom: 5px;
+	color: #555;
+}
+#operation1 .chack{
+	background: #009b78;
+}
+#s1{
+	width: 300px;
+	height: 50px;
+	float: left;
+	background: #f00;
+	display: none;
+	margin-left: 50px;
+}
